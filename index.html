@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Midex — Fullstack Developer in Progress</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ═══════════════════════════════════════ NAV ═══ -->
+    <nav id="navbar">
+      <div class="nav-inner">
+        <a href="#hero" class="nav-logo">OLA|Stack<span class="dot">.</span></a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ═══════════════════════════════════════ HERO ═══ -->
+    <section id="hero">
+      <div class="hero-bg-grid"></div>
+      <div class="hero-content">
+        <div class="hero-tag">
+          <span class="blink">▮</span>&nbsp; Available for opportunities
+        </div>
+        <h1 class="hero-name">
+          <span class="name-line">Ola|Stack</span>
+        </h1>
+        <p class="hero-title">
+          Frontend Developer & Java Enthusiast
+          <span class="accent">in Progress</span>
+        </p>
+        <p class="hero-sub">
+          Building things for the web — one commit at a time.<br />
+          Frontend, backend, and everything in between.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+        </div>
+        <div class="hero-scroll-hint">
+          <span>Scroll</span>
+          <div class="scroll-line"></div>
+        </div>
+      </div>
+      <div class="hero-code-block">
+        <div class="code-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="code-filename">ola|stack.js</span>
+        </div>
+        <pre
+          class="code-body"
+        ><code><span class="kw">const</span> <span class="var">developer</span> = {
+  <span class="key">name</span>: <span class="str">"Ola|Stack"</span>,
+  <span class="key">role</span>: <span class="str">"Frontend Dev &Java Ethusist"</span>,
+  <span class="key">status</span>: <span class="str">"learning &amp; building"</span>,
+  <span class="key">stack</span>: [
+    <span class="str">"HTML"</span>, <span class="str">"CSS"</span>, <span class="str">"JavaScript"</span>,
+    <span class="str">"Java"</span>, <span class="str">"Git"</span>, <span class="str">"Bootstrap"</span>
+  ],
+  <span class="key">goal</span>: <span class="str">"Ship great products"</span>,
+  <span class="fn">greet</span>() {
+    <span class="kw">return</span> <span class="str">`Hi, let's build something.`</span>
+  }
+};</code></pre>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ ABOUT ═══ -->
+    <section id="about">
+      <div class="container">
+        <div class="section-label">01 / About</div>
+        <div class="about-grid">
+          <div class="about-text">
+            <h2 class="section-title">
+              A developer who <span class="accent">actually ships.</span>
+            </h2>
+            <p>
+              Hey! I'm Olamide — a junior software developer on a mission to
+              become a well-rounded fullstack engineer. I started with HTML and
+              CSS, fell in love with JavaScript, and now I'm pushing into
+              backend territory with Java and server-side logic.
+            </p>
+            <p>
+              I believe the best way to learn is to build real things. Every
+              project I take on teaches me something new — whether it's a tricky
+              CSS layout, an API call that finally works, or wrangling Git
+              branches without breaking everything.
+            </p>
+            <p>
+              When I'm not coding, I'm reading making research, watching
+              build-in-public devs, and planning the next project to throw on
+              GitHub.
+            </p>
+            <div class="about-stats">
+              <div class="stat">
+                <span class="stat-num">10+</span>
+                <span class="stat-label">Projects Built</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num">500+</span>
+                <span class="stat-label">Hours Coded</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num">∞</span>
+                <span class="stat-label">Bugs Fixed</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-visual">
+            <div class="avatar-frame">
+              <div class="avatar-placeholder">
+                <img
+                  src="Developer.jpg"
+                  alt="Midex"
+                  style="
+                    width: 140px;
+                    height: 140px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    display: block;
+                  "
+                />
+              </div>
+              <div class="avatar-badge">Open to work</div>
+            </div>
+            <div class="about-tags">
+              <span class="tag">Problem Solver</span>
+              <span class="tag">Fast Learner</span>
+              <span class="tag">Team Player</span>
+              <span class="tag">Detail Oriented</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ PROJECTS ═══ -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-label">02 / Projects</div>
+        <h2 class="section-title">
+          Things I've <span class="accent">built & implement.</span>
+        </h2>
+        <p class="section-sub">
+          A selection of projects that show what I can do. More on GitHub.
+        </p>
+
+        <div class="projects-grid">
+          <article class="project-card featured">
+            <div class="project-number">01</div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <h3>Task Manager App</h3>
+              <p>
+                A clean, browser-based task manager with local storage
+                persistence. Users can add, complete, and delete tasks — with
+                filters for active and completed items. Built to understand DOM
+                manipulation and the localStorage API deeply.
+              </p>
+              <div class="project-links">
+                <a href="#" class="link-btn">Live Demo ↗</a>
+                <a href="#" class="link-btn ghost">GitHub ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">02</div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>Bootstrap</span>
+                <span>JavaScript</span>
+              </div>
+              <h3>Weather Dashboard</h3>
+              <p>
+                A responsive weather app that fetches real-time data from the
+                OpenWeatherMap API. Features city search, 5-day forecast, and
+                dynamic background changes based on weather conditions.
+              </p>
+              <div class="project-links">
+                <a href="#" class="link-btn">Live Demo ↗</a>
+                <a href="#" class="link-btn ghost">GitHub ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">03</div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span>Java</span>
+                <span>OOP</span>
+                <span>CLI</span>
+              </div>
+              <h3>Student Grade System</h3>
+              <p>
+                A Java console application for managing student records and
+                computing grades. Demonstrates object-oriented principles —
+                classes, inheritance, and encapsulation — built while learning
+                Java fundamentals.
+              </p>
+              <div class="project-links">
+                <a href="#" class="link-btn">GitHub ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">04</div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>Flexbox</span>
+              </div>
+              <h3>Dev Portfolio v1</h3>
+              <p>
+                My first attempt at a personal portfolio — fully hand-coded
+                without frameworks. A milestone project that forced me to master
+                CSS layout techniques, responsive design, and Git version
+                control.
+              </p>
+              <div class="project-links">
+                <a href="#" class="link-btn">Live Demo ↗</a>
+                <a href="#" class="link-btn ghost">GitHub ↗</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="projects-cta">
+          <a href="https://github.com" target="_blank" class="btn btn-ghost"
+            >See all projects on GitHub ↗</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ SKILLS ═══ -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-label">03 / Skills</div>
+        <h2 class="section-title">My <span class="accent">toolkit.</span></h2>
+        <p class="section-sub">
+          Technologies I work with and am actively improving.
+        </p>
+
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h4 class="skill-group-title">Frontend</h4>
+            <ul class="skill-list">
+              <li>
+                <span class="skill-icon">◈</span> HTML5
+                <span class="skill-level solid">Comfortable</span>
+              </li>
+              <li>
+                <span class="skill-icon">◈</span> CSS3 / Flexbox / Grid
+                <span class="skill-level solid">Comfortable</span>
+              </li>
+              <li>
+                <span class="skill-icon">◈</span> JavaScript (ES6+)
+                <span class="skill-level learning">Learning</span>
+              </li>
+              <li>
+                <span class="skill-icon">◈</span> Bootstrap 5
+                <span class="skill-level solid">Comfortable</span>
+              </li>
+              <li>
+                <span class="skill-icon">◈</span> Responsive Design
+                <span class="skill-level solid">Comfortable</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h4 class="skill-group-title">Backend</h4>
+            <ul class="skill-list">
+              <li>
+                <span class="skill-icon">◈</span> Java (Core)
+                <span class="skill-level learning">Learning</span>
+              </li>
+              <li>
+                <span class="skill-icon">◈</span> OOP Principles
+                <span class="skill-level learning">Learning</span>
+              </li>
+              <li>
+                <span class="skill-icon">◈</span> REST APIs
+                <span class="skill-level learning">Learning</span>
+              </li>
+              <li>
+                <span class="skill-icon">◈</span> SQL / Databases
+                <span class="skill-level learning">Exploring</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h4 class="skill-group-title">Tools & Workflow</h4>
+            <ul class="skill-list">
+              <li>
+                <span class="skill-icon">◈</span> Git
+                <span class="skill-level solid">Comfortable</span>
+              </li>
+              <li>
+                <span class="skill-icon">◈</span> GitHub
+                <span class="skill-level solid">Comfortable</span>
+              </li>
+              <li>
+                <span class="skill-icon">◈</span> VS Code
+                <span class="skill-level solid">Comfortable</span>
+              </li>
+              <li>
+                <span class="skill-icon">◈</span> Command Line
+                <span class="skill-level learning">Learning</span>
+              </li>
+              <li>
+                <span class="skill-icon">◈</span> Figma (basics)
+                <span class="skill-level learning">Exploring</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-group next-up">
+            <h4 class="skill-group-title">Next Up</h4>
+            <ul class="skill-list">
+              <li><span class="skill-icon muted">◇</span> React</li>
+              <li><span class="skill-icon muted">◇</span> Node.js</li>
+              <li><span class="skill-icon muted">◇</span> Spring Boot</li>
+              <li><span class="skill-icon muted">◇</span> TypeScript</li>
+              <li><span class="skill-icon muted">◇</span> Docker</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ CONTACT ═══ -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-label">04 / Contact</div>
+        <div class="contact-grid">
+          <div class="contact-text">
+            <h2 class="section-title">
+              Let's <span class="accent">connect.</span>
+            </h2>
+            <p>
+              I'm actively looking for internship opportunities and freelance
+              projects. Whether you want to build something together, have a
+              question, or just want to say hi — my inbox is open.
+            </p>
+            <a href="mailto:olamideolorunshola07@gmail.com" class="email-link"
+              >olamideolorunshola07@gmail.com ↗</a
+            >
+            <div class="social-links">
+              <a
+                href="https://github.com/Midex554"
+                target="_blank"
+                class="social-btn"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  width="20"
+                  height="20"
+                >
+                  <path
+                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                  />
+                </svg>
+                GitHub
+              </a>
+              <a href="https://linkedin.com" target="_blank" class="social-btn">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  width="20"
+                  height="20"
+                >
+                  <path
+                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                  />
+                </svg>
+                LinkedIn
+              </a>
+              <a href="https://twitter.com" target="_blank" class="social-btn">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  width="20"
+                  height="20"
+                >
+                  <path
+                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                  />
+                </svg>
+                Twitter / X
+              </a>
+
+              <a
+                href="https://wa.me/2349058441119"
+                target="_blank"
+                class="social-btn"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  width="20"
+                  height="20"
+                >
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"
+                  />
+                </svg>
+                WhatsApp
+              </a>
+            </div>
+          </div>
+          <div class="contact-form-wrap">
+            <form class="contact-form" id="contact-form" novalidate>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="your@email.com"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  rows="5"
+                  placeholder="Tell me about your project or opportunity..."
+                  required
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="btn btn-primary full-width"
+                id="submit-btn"
+              >
+                Send Message
+              </button>
+              <p class="form-note" id="form-note"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ FOOTER ═══ -->
+    <footer>
+      <div class="container footer-inner">
+        <span class="footer-logo">Ola|Stack<span class="dot">.</span></span>
+        <p>Designed &amp; built by Ola|Stack — <span id="year"></span></p>
+        <p class="footer-right">Currently open to opportunities</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

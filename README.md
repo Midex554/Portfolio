@@ -30,8 +30,9 @@ I am Midex, a junior fullstack developer focused on building modern, responsive,
 - Mobile-friendly layout  
 
 ## 📬 Contact
-- GitHub: https://github.com/yourusername  
-- Email: your-email@example.com  
+- GitHub: https://github.com/Midex554
+- Email: olamideolorunshola07@gmail.com
+- Whatsapp: 09058441119
 
 ---
 

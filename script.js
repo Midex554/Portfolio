@@ -86,6 +86,7 @@ const revealTargets = [
   ".about-visual",
   ".contact-text",
   ".contact-form-wrap",
+  ".testimonial-card",
   ".section-title",
   ".section-sub",
 ];

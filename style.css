@@ -774,7 +774,7 @@ section:nth-child(even) {
   flex-shrink: 0;
 }
 
-.skill-level.solid {
+.skill-level.Advanced {
   background: rgba(59, 130, 246, 0.1);
   color: var(--accent);
   border: 1px solid rgba(59, 130, 246, 0.2);
@@ -784,6 +784,12 @@ section:nth-child(even) {
   background: rgba(247, 201, 75, 0.1);
   color: var(--accent-2);
   border: 1px solid rgba(247, 201, 75, 0.2);
+}
+
+.skill-level.Intermediate {
+  background: rgba(22, 255, 73, 0.1);
+  color: green;
+  border: 1px solid rgba(29, 230, 116, 0.2);
 }
 
 /* Contact */
